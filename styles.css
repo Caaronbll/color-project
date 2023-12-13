@@ -1,6 +1,25 @@
 
+
+
+
+/** Variable Declarations **/
+/* colors */
+:root {
+    --off-white: rgb(250, 249, 245);
+    --brown: rgb(63, 36, 0);
+    --turquoise: rgb(0, 56, 61);
+}
+
+
+
+
+
+/** Stylings ********************************/
+
+
 .body {
-    background-color: rgb(0, 56, 61);
+    background-color: var(--turquoise);
+    width: 100vw;
 }
 
 .header {
@@ -8,57 +27,79 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 100vh;
+    width: 100vw;
+}
+
+#site-header {
+    font-size: 40px;
+}
+@media (max-width: 576px) {
+    #site-header {
+        font-size: 28px;
+    }
 }
 
 #header-logo {
     font-size: larger;
     font-weight: bold;
     font-family: Harrington;
-    color: whitesmoke;
+    color: var(--off-white);
 }
 /* About section */
 #about {
-    background-color: whitesmoke;
+    background-color: var(--off-white);
 }
 
 #about-heading {
     font-size: larger;
     font-weight: bold;
     font-family: Harrington;
-    color: rgb(63, 36, 0);
+    color: var(--brown);
     font-size: 30px;
+}
+@media (max-width: 576px) {
+    #about-heading {
+        font-size: 27px;
+    }
 }
 
 .about-content {
-    font-size: medium;
-    color: rgb(0, 56, 61);
+    font-size: 20px;
+    color: var(--turquoise);
     font-family: sans-serif;
     text-align: left;
-    line-height: 32px;
+    line-height: 40px;
+}
+
+@media (max-width: 576px) {
+    .about-content {
+        line-height: 32px;
+        font-size: 20px;
+    }
 }
 
 
 /* Filler section */
 #filler {
-    background-color: rgb(63, 36, 0);
+    background-color: var(--brown);
     height: 15px;
 }
 
 /* Footer section */
 #footer-color {
-    background-color: rgb(0, 56, 61);
+    background-color: var(--turquoise);
 }
 
 #footer-logo {
     font-size: larger;
     font-weight: bold;
     font-family: Harrington;
-    color: whitesmoke;
+    color: var(--off-white);
 }
 
 #watermark {
     font-family: Papyrus, fantasy;
-    color: whitesmoke;
+    color: var(--off-white);
     font-size: 12px;
 }
