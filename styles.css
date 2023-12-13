@@ -46,6 +46,14 @@
     font-family: Harrington;
     color: var(--off-white);
 }
+
+/* Gallery Section */
+#gallery {
+    color: var(--off-white);
+    font-family: Papyrus, fantasy;
+}
+
+
 /* About section */
 #about {
     background-color: var(--off-white);
@@ -101,5 +109,5 @@
 #watermark {
     font-family: Papyrus, fantasy;
     color: var(--off-white);
-    font-size: 12px;
+    font-size: 18px;
 }
