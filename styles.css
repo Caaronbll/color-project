@@ -1,0 +1,64 @@
+
+.body {
+    background-color: rgb(0, 56, 61);
+}
+
+.header {
+    background-image: url("images/museumbackground.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+#header-logo {
+    font-size: larger;
+    font-weight: bold;
+    font-family: Harrington;
+    color: whitesmoke;
+}
+/* About section */
+#about {
+    background-color: whitesmoke;
+}
+
+#about-heading {
+    font-size: larger;
+    font-weight: bold;
+    font-family: Harrington;
+    color: rgb(63, 36, 0);
+    font-size: 30px;
+}
+
+.about-content {
+    font-size: medium;
+    color: rgb(0, 56, 61);
+    font-family: sans-serif;
+    text-align: left;
+    line-height: 32px;
+}
+
+
+/* Filler section */
+#filler {
+    background-color: rgb(63, 36, 0);
+    height: 15px;
+}
+
+/* Footer section */
+#footer-color {
+    background-color: rgb(0, 56, 61);
+}
+
+#footer-logo {
+    font-size: larger;
+    font-weight: bold;
+    font-family: Harrington;
+    color: whitesmoke;
+}
+
+#watermark {
+    font-family: Papyrus, fantasy;
+    color: whitesmoke;
+    font-size: 12px;
+}
